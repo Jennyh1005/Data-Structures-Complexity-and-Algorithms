@@ -1,0 +1,16 @@
+Map & Filter
+
+Map Function:
+- The map function in Python is used to apply a function to an iterable data type.
+- The syntax for the map function is: map(function_name, sequence).
+- function_name is any function (built-in or user-defined) that returns a desired value.
+- sequence is any iterable data type, such as a list or a string.
+
+Filter Function:
+- The filter function in Python is used to filter out items from a data set that meet a certain condition.
+- The syntax for the filter function is: filter(bool_returning_function, sequence).
+- bool_returning_function is a function that returns a boolean value, and it should be able to handle the items inside the sequence as its arguments.
+- sequence is any iterable data type, such as a list or a string.
+- The filter function filters out items from the array that satisfy the condition of isOdd function, i.e., it returns True for odd numbers, and stores the filtered items in the odds list.
+- It's important to note that the filter function doesn't modify the original sequence, but creates a new sequence with the filtered items.
+- The filter function can also be used with other boolean-returning functions to filter out items based on different conditions.
