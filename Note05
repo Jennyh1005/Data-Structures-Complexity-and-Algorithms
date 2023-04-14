@@ -1,0 +1,15 @@
+Dictionary
+
+- A dictionary (associative array, map, symbol table) is a data type that stores a collection of (key, value) pairs, where each possible key appears at most once in the collection.
+- Common operations on dictionaries include adding a pair, removing a pair, modifying an existing pair, and looking up a value associated with a particular key.
+- In Python 3, dictionaries are defined using curly braces {} and each item in a dictionary is a key-value pair.
+- Keys in a dictionary must be immutable (e.g., strings, numbers, tuples, frozensets) and unique. If a dictionary has duplicate keys, the newest created item with a duplicate key supersedes the previous declaration.
+- Values in a dictionary can be of any data type.
+- Dictionary items can be accessed using the key in square brackets, e.g., sammy['username'] retrieves the value associated with the key 'username' in the dictionary sammy.
+- Dictionary items can be updated by referencing the key and assigning a new value, e.g., sammy['followers'] += 10 adds 10 to the value associated with the key 'followers' in the dictionary sammy.
+- New key-value pairs can be added to a dictionary by creating a new key and assigning a value, e.g., sammy['verified'] = True adds a new key-value pair to the dictionary sammy.
+- Dictionary items can be deleted using the del keyword, e.g., del sammy['followers'] removes the key-value pair associated with the key 'followers' from the dictionary sammy. The entire dictionary can be emptied by calling the clear() method on the dictionary object, and the dictionary itself can be deleted using del keyword.
+- The membership operators in and not in can be used to check if a key exists in a dictionary, e.g., 'username' in sammy returns True if the key 'username' is present in the dictionary sammy.
+- Built-in functions such as len(), max(), min(), str(), and list() can be used to interact with dictionaries to get the size of the dictionary, the largest and smallest keys in the dictionary, and convert the dictionary to a string or a list of keys.
+- Dictionaries can be duplicated using the copy() method or the assignment operator =. However, using the assignment operator creates a reference to the same dictionary object, so changes made to the original dictionary will affect the duplicated dictionary. To duplicate only the keys of a dictionary with empty values, the fromkeys() method can be used.
+- Other concepts related to dictionaries include hash tables and search trees.
