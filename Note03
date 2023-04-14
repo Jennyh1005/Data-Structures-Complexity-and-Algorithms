@@ -1,0 +1,39 @@
+Tuples
+
+what is tuples?
+- Tuples are immutable, iterable, and nestable data structures in Python.
+- Strings and Lists are other iterable data types in Python, but they have some key differences compared to Tuples.
+- Strings only allow alphanumeric characters and special symbols, while Lists allow all data types as its items/members.
+- Strings are immutable, whereas Lists are mutable.
+- Tuples are the solution when you need a data structure that is immutable, allows different datatypes as items, is iterable, and nestable (similar to a list within a list).
+
+Tuple Declaration and Usage:
+- Tuples are declared using parentheses or round brackets.
+- An empty tuple is denoted as ().
+- A tuple with only one item is called a singleton tuple, and a comma is required after the item, like (item,).
+- Tuples are sliceable and indexable using square brackets.
+
+Tuple Operators:
+- Concatenation: Joining two tuples using the + operator.
+- Repetition: Repeating a tuple multiple times using the * operator.
+- Membership: Checking if a value exists in a tuple using the 'in' keyword.
+
+Tuple Iteration, Indexing, and Slicing:
+- Tuples are iterable, and you can use a 'for' loop to iterate through the items in a tuple.
+- Tuples are indexable, and you can use square brackets and an index to access a specific item in a tuple.
+- Tuples are also sliceable, and you can use square brackets with a start, stop, and step value to slice a tuple and get a new tuple.
+
+Built-in Functions with Tuples:
+- len(): Returns the length of a tuple.
+- min(): Returns the minimum value in a tuple.
+- max(): Returns the maximum value in a tuple.
+- tuple(): Converts a string or a list into a tuple.
+
+Tuple Comprehension:
+- Tuple comprehension is a concise way to create a tuple using a single line of code.
+- The general format of tuple comprehension is similar to list comprehension, using parentheses instead of square brackets.
+
+Tuple and Python: Packing and Unpacking:
+- Tuples can be used for packing and unpacking values in Python.
+- Packing is when you assign multiple values to a tuple at once.
+- Unpacking is when you assign values from a tuple to multiple variables at once.
