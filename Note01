@@ -1,0 +1,43 @@
+Lesson 1: Matrices & List Comprehension
+
+Matrix
+
+Mathematically, a matrix is a representation of numbers, symbols, or expressions in a 2-Dimensional Array.
+In computer science, especially with Python, matrices can be created as a data structure using a list within a list.
+Matrices are fundamental in mathematics, particularly in calculus, vectors, and linear algebra.
+Mathematical Matrix Diagram:
+
+A matrix is represented using the notation "A".
+A matrix has "m" rows and "n" columns, denoted as m x n.
+Rows and columns are indexed starting from 1.
+Rows contain values horizontally, while columns contain values vertically.
+Python 3 Representation of matrix A:
+
+A matrix can be represented using a list of lists in Python 3.
+Example: matrix_A = [[1, 2, 3, 4], [5, 6, 7, 8]]
+Accessing Matrix A:
+
+Rows and columns in a matrix can be accessed using indices.
+Rows and columns are indexed starting from 0 in Python.
+Example: matrix_A[0] represents the first row of matrix A, and matrix_A[1][1] represents the value at the second row and second column of matrix A.
+List Comprehension in Python 3:
+
+List comprehension is a concise method to create a list in Python 3.
+It is commonly used when the list is a result of some operations applied to all its items, made from another sequence/iterable data, or a member of another list/sequence/iterable data that satisfies a certain condition.
+It consists of a square bracket containing an expression that describes the list, followed by one or more for clauses to explain its members, and zero or more if clauses depending on the complexity of the list.
+List Comprehension Example 1:
+
+Example of creating a list that squares all the numbers from 0 to 10 using list comprehension.
+Old Method: Using a for loop and appending values to a list.
+List Comprehension: Using a single line expression.
+Example: squares = [i**2 for i in range(10)]
+List Comprehension Example 2:
+
+Example of creating a list of lists using list comprehension.
+Example: Creating a list of all possible combinations of elements from two lists, a and b, where the elements are not equal.
+Example: result = [[x, y] for x in a for y in b if x != y]
+List Comprehension Example 3:
+
+Example of using list comprehension to flatten a 2D array into a single list.
+Example: vec = [[1,2,3], [4,5,6], [7,8,9]]
+Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
